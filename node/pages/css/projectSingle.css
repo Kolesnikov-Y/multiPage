@@ -1,0 +1,77 @@
+.project_card, .project_card_container{
+	width: 100%;
+	height: 570px; 
+	background-color: #e6e6e6; 
+}
+
+.porject_description{
+	width: 100%;
+	height: 570px;
+	background-color: #f6f6f6;
+	display: flex;
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: flex-start;
+}
+
+
+
+/*footer*/
+
+.footer_about{
+	width: 100%; 
+	height: 285px; 
+	background-color: #141414;
+}
+.footer_about_container {
+	width: 100%; 
+	height: 285px; 
+}
+
+.footer_about_row { 
+	height: 285px;
+	display: flex; 
+	justify-content: space-around;
+	align-content: center;
+	align-items: baseline; 
+}
+
+.footer_about_container p {
+	color: #bcbcbc;
+	font-size: 15px; 
+	line-height: 24px;
+}
+
+.footer_about_who :nth-child(1){
+	color: white;
+	line-height: 72px;
+	font-size: 18px; 
+}
+
+.footer_about_who :nth-child(2){
+	color: #bcbcbc;
+	line-height: 24px;
+	font-size: 15px;
+}
+
+.footer_about_col{
+display: flex;
+flex-direction: column;
+align-items: center; 
+}
+
+.footer_about_information{
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sosial_links{
+	display: flex;
+	justify-content: flex-end;
+}

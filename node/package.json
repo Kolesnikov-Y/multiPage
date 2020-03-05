@@ -1,0 +1,22 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "back-end for landibg pages",
+  "main": "back.js",
+  "scripts": {
+    "start": "node back.js", 
+    "dev": "nodemon back.js"
+  },
+  "keywords": [
+    "node",
+    "nodeJS"
+  ],
+  "author": "Kolesnikov Yaroslav <k@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
